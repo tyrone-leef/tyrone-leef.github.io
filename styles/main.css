@@ -17,7 +17,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: monospace;
 }
 
 .home {
@@ -76,6 +75,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-size: 42px;
+  margin: 10px 0px 150px;
 }
 
 .blog-container {
@@ -83,6 +83,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 20px 0px;
 }
 
 .blog-box {
@@ -203,8 +204,6 @@ body {
   display: block;
   border-radius: 8px;
   margin: 10px auto;
-  object-fit: cover;
-  object-position: bottom;
 }
 
 /* footer section */
