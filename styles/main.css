@@ -139,54 +139,70 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .post-heading h1 {
   font-size: 48px;
-  margin: 10px;
+  margin: 10px auto;
+  width: 90%;
 }
 
 .post-heading h2 {
   font-size: 28px;
-  margin: 10px;
+  margin: 10px auto;
+  width: 80%;
 }
 
-.post-heading h2 {
-  font-size: 28px;
-  margin: 10px;
+.post-heading h3 {
+  margin: 0px auto;
+  width: 90%;
 }
 
-.post {
-  margin: 0 auto;
+.post hr {
+  margin: 10px auto;
   width: 90%;
 }
 
 .post h2 {
-  margin: 20px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto;
+  width: 62%;
+  padding: 10px;
+}
+
+.post h3 {
+  font-size: 20px;
+  margin: auto;
+  width: 61%;
+  padding: 10px;
 }
 
 .post p {
   font-size: 20px;
-  margin: 20px 10px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
 .post ul {
-  list-style: circle;
   font-size: 20px;
+  list-style: circle;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
 .post ul li {
   margin: 10px;
 }
 
+/* set width of images with % in html*/
 .post img {
   display: block;
   border-radius: 8px;
-  margin: 10px;
-}
-
-/* set width of images with % */
-.post-img img {
+  margin: 10px auto;
   object-fit: cover;
   object-position: bottom;
 }
