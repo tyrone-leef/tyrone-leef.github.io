@@ -6,56 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>src="../js/script.js"</script>
+    <script src="../js/script.js"></script>
     <title>JavaScript DOM</title>
   </head>
 
   <body>
     <div class="post-heading spacer2 layer2">
       <h1>JavaScript Fundamentals</h1>
-      <h3>1 July 2023</h3>
+      <h3>2 July 2023</h3>
     </div>
     <div class="post">
-      
       <h2>An analogy to describe JavaScript and its relationship to HTML and CSS.</h2>
       <p>Let's describe HTML, CSS, and JavaScript using a house as our basis.
-        HTML would be like the foundation of a house it's used to create the structure of a web page.
-        CSS could be the interior or exterior of the house it can be seen as the design of a web page.
-        As for JavaScript it would be like the utilities such as water, electric, gas, technology etc. 
+        HTML would be like the foundation of a house; it's used to create the structure of a web page.
+        CSS could be the interior or exterior of the house; it can be seen as the design of a web page.
+        As for JavaScript, it would be like the utilities such as water, electricity, gas, technology, etc. 
         JavaScript adds functionality to a website and makes it more interactive.</p>
 
       <h2>Explain control flow and loops using an example process from everyday life.</h2>
-      <p>Control flow is the order of statements which are executed in a script and a loop is a sequence of instructions that is repeated until a certain condition is met.
-        When doing physical exercise there is a process for each activity which may also include sets and reps. 
-        For this example, I'm going to use the bench press the steps are as follows: first lie on your back, grip the barbell, plant your feet, lift bar off the rack, lower to chest, 
+      <p>Control flow is the order of statements that are executed in a script, and a loop is a sequence of instructions that is repeated until a certain condition is met.
+        When doing physical exercise, there is a process for each activity, which may also include sets and reps. 
+        For this example, I'm going to use the bench press. The steps are as follows: first lie on your back, grip the barbell, plant your feet, lift bar off the rack, lower bar to chest, 
         then push back up. You can repeat (loop) the previous two steps a number of times and then set the barbell back onto the rack when the number of reps you want to do have been performed.</p>
       
       <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
-      <p>The DOM (Document Object Model) is an object representation of the HTML document which can allow programs to make changes to the document structure, content, and style. 
-        The DOM is made up of nodes which can be elements, attributes, content, text, and many other things.</p>
-        
-      <img id="btn-image" src="../images/learning.png" alt="Blog image" style="display:none"/>
-      <button id="btn-ex" type="button" onclick="btnFunction">Click me</button>
+      <p>The DOM (Document Object Model) is an object representation of the HTML document that can allow programs to make changes to the document's structure, content, and style. 
+        The DOM is made up of nodes, which can be elements, attributes, content, text, and many other things.<br>
+        Here is an example of how you can interact with the DOM by clicking a button.</p>
+
+      <button type="button" onclick="btnFunction()">Click me</button>
+      <img id="btn-image" src="../images/cat.gif" alt="Blog image" style="display:none"/>
+      <p>This is a function that gets the ID of an image and when the display property is set to none the image will appear, then it can hide the image when the display property is set to block.</p>
+
 
       <h2>Explain the difference between accessing data from arrays and objects.</h2>
       <h3>Array</h3>
-      <p>The data within an array can hold multiple values. You can access an array value by referring to its index number in the example below the number 2 was given and "BMW" was the output</p>
+      <p>The data within an array can hold multiple values. You can access an array value by referring to its index number. In the example below, the number 2 was given and "BMW" was the output</p>
       <img src="../images/cars.png" width=40% height=40% alt="Blog img"> 
       <h3>Output of array in console</h3>
-      <img src="../images/cars-console.png" width=30% height=30% alt="Blog img">
+      <img class="img-border" src="../images/cars-console.png" width=30% height=30% alt="Blog img">
       <hr>
       <h3>Object</h3>
-      <p>The data in an object has properties and they are assigned a value. You can access the data of an object just by referring to the property's name the example below shows the brand property was accessed and has the value "Toyota".</p>
+      <p>The data in an object has properties and they are assigned a value. You can access the data of an object just by referring to the property's name. The example below shows the brand property was accessed and has the value "Toyota".</p>
       <img src="../images/car.png" width=40% height=40% alt="Blog img"> 
       <h3>Output of object in console</h3>
-      <img src="../images/car-console.png" width=30% height=30% alt="Blog img">
+      <img class="img-border" src="../images/car-console.png" width=30% height=30% alt="Blog img">
       <hr>
       <h2>Explain what functions are and why they are helpful.</h2>
-      <p>A function is a set of instructions that can be used to perform a task or calculate a value. It should take an input and return an output.
+      <p>A function is a set of instructions that can be used to perform a task or calculate a value. It should usually take an input and return an output.
         One way a function is helpful is by its reusability. When a function is defined you are able to use it as many times as need be. 
         Functions are a great way to break down a problem because once it has been defined then you don't have to worry about how it works and from there you can set your attention elsewhere.</p><br><br>
     </div>
-
   </body>
 
   <footer>

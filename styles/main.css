@@ -36,6 +36,10 @@ body {
   font-size: 24px;
 }
 
+.img-border {
+  border: 5px solid black;
+}
+
 .spacer1 {
   aspect-ratio: 960/300;
   width: 100%;
@@ -206,6 +210,14 @@ body {
   margin: 10px auto;
 }
 
+.post button {
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
 /* footer section */
 footer {
   background-color: #111;
@@ -298,6 +310,13 @@ footer {
   .footer-nav ul li {
     width: 100%;
     text-align: center;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .post img {
+    width: 100%;
     margin: 10px;
   }
 }
